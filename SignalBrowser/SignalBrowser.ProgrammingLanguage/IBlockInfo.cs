@@ -8,6 +8,11 @@ namespace SignalBrowser.ProgrammingLanguage
     public interface IBlockInfo
     {
         /// <summary>
+        /// variables of variable like properties of class
+        /// dictionary id is for access faster to variable
+        /// </summary>
+        Dictionary<uint, IVariable> Variables { get; set; }
+        /// <summary>
         /// class,method,functions if,for,foreach etc blocks in this block info
         /// </summary>
         Dictionary<uint, IBlockInfo> BlockInfoes { get; set; }

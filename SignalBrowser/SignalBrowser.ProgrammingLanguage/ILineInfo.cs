@@ -10,5 +10,9 @@ namespace SignalBrowser.ProgrammingLanguage
     public interface ILineInfo
     {
         void Run();
+        /// <summary>
+        /// parent block of line
+        /// </summary>
+        IBlockInfo Parent { get; set; }
     }
 }

@@ -20,5 +20,10 @@ namespace SignalBrowser.ProgrammingLanguage
         /// if null that is main block of application
         /// </summary>
         public IBlockInfo Parent { get; set; }
+        /// <summary>
+        /// variables of variable like properties of class
+        /// dictionary id is for access faster to variable
+        /// </summary>
+        public Dictionary<uint, IVariable> Variables { get; set; }
     }
 }

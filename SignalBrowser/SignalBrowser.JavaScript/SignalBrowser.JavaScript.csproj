@@ -8,9 +8,4 @@
     <ProjectReference Include="..\SignalBrowser.ProgrammingLanguage\SignalBrowser.ProgrammingLanguage.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Blocks\" />
-    <Folder Include="Lines\" />
-  </ItemGroup>
-
 </Project>

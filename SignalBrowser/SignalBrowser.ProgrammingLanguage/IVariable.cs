@@ -14,6 +14,10 @@ namespace SignalBrowser.ProgrammingLanguage
         /// </summary>
         uint Id { get; set; }
         /// <summary>
+        /// name of variable
+        /// </summary>
+        string Name { get; set; }
+        /// <summary>
         /// value of variable
         /// </summary>
         object Value { get; set; }

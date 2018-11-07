@@ -10,9 +10,13 @@ namespace SignalBrowser.ProgrammingLanguage
     public interface ICompiler
     {
         /// <summary>
+        /// get new pointer id for new classes and variables
+        /// </summary>
+        uint GetNewPointerId { get; }
+        /// <summary>
         /// compile a source code to signal browser language
         /// </summary>
         /// <returns>main block</returns>
-        IBlockInfo ICompiler(string sourceCode);
+        IBlockInfo Compile(string sourceCode);
     }
 }

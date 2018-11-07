@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalBrowser.ProgrammingLanguage", "SignalBrowser.ProgrammingLanguage\SignalBrowser.ProgrammingLanguage.csproj", "{2742B5A4-679A-43B6-8E91-A1C153E9E6F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalBrowser.ProgrammingLanguage", "SignalBrowser.ProgrammingLanguage\SignalBrowser.ProgrammingLanguage.csproj", "{2742B5A4-679A-43B6-8E91-A1C153E9E6F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalBrowser.JavaScript", "SignalBrowser.JavaScript\SignalBrowser.JavaScript.csproj", "{33B1270A-5A69-4F25-8C79-D0051E341473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalBrowser.JavaScript", "SignalBrowser.JavaScript\SignalBrowser.JavaScript.csproj", "{33B1270A-5A69-4F25-8C79-D0051E341473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalBrowser.ConsoleAppTest", "SignalBrowser.ConsoleAppTest\SignalBrowser.ConsoleAppTest.csproj", "{72601C5D-F0F9-4AD9-8EE1-8777259536DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{33B1270A-5A69-4F25-8C79-D0051E341473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33B1270A-5A69-4F25-8C79-D0051E341473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33B1270A-5A69-4F25-8C79-D0051E341473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72601C5D-F0F9-4AD9-8EE1-8777259536DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72601C5D-F0F9-4AD9-8EE1-8777259536DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72601C5D-F0F9-4AD9-8EE1-8777259536DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72601C5D-F0F9-4AD9-8EE1-8777259536DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using SignalBrowser.ProgrammingLanguage;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace SignalBrowser.ProgrammingLanguage
+namespace SignalBrowser.JavaScript.Blocks
 {
     /// <summary>
     /// class,method,functions if,for,foreach etc
@@ -24,6 +27,6 @@ namespace SignalBrowser.ProgrammingLanguage
         /// variables of variable like properties of class
         /// dictionary id is for access faster to variable
         /// </summary>
-        public Dictionary<uint, IVariable> Variables { get; set; }
+        public Dictionary<uint, IVariable> Variables { get; set; } = new Dictionary<uint, IVariable>();
     }
 }
